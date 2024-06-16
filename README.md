@@ -1,2 +1,12 @@
-# n-values.c
-printing n values in c
+ #include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    int i=1;
+    while(i<=n)
+    {
+        printf("%d",i);
+        i++;
+    }
+}
